@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Chaos Monkey
                 </div>
 
                 <div class="links">
