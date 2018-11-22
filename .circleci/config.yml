@@ -22,9 +22,6 @@ jobs:
           command: |
             sudo apt-get update && sudo apt-get -f install && sudo apt-get install wget
       - run: 
-          name: Check Rejected Commits
-          command: ./deploy
-      - run: 
           name: Install Composer
           command: |
             sudo composer self-update
