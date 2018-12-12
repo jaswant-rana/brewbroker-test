@@ -84,6 +84,9 @@
                  <div class="title m-b-md">
                     Add new relic
                 </div>
+                 <div class="title m-b-md">
+                    check new relic
+                </div>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
