@@ -13,6 +13,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
+        adsf
         $this->middleware('auth');
     }
 
@@ -23,6 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+         adsf
         return view('home');
     }
 }
