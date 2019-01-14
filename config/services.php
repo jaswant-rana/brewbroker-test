@@ -28,7 +28,12 @@ return [
     'sparkpost' => [
         'secret' => env('SPARKPOST_SECRET'),
     ],
-
+    
+    'rollbar' => [
+       'access_token' => getenv('ROLLBAR_ACCESS_TOKEN'),
+       'level' => 'debug',
+    ],
+    
     'stripe' => [
         'model' => App\User::class,
         'key' => env('STRIPE_KEY'),
